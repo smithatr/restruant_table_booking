@@ -1,9 +1,9 @@
-TITLE: "Building a Responsive and Eco-Friendly Restaurant Table Booking Platform with AWS"
+**TITLE:** *"Building a Responsive and Eco-Friendly Restaurant Table Booking Platform with AWS"*
 
-METHODOLOGY:
+**METHODOLOGY:**  
 This project creates a responsive, eco-friendly restaurant table booking platform using AWS services. The platform allows customers to easily make reservations online, while being powered by HTML, CSS, and JavaScript for the frontend. AWS S3 is used to store images and media, and CloudFront optimizes content delivery. The platform is designed to handle reservations efficiently with a dynamic backend that scales based on user traffic, promoting an eco-friendly approach by optimizing cloud resource usage.
 
-SOFTWARE TOOLS:
+**SOFTWARE TOOLS:**  
 - **Languages:** HTML, CSS, JavaScript  
 - **Cloud Services:** AWS S3, AWS CloudFront, AWS EC2  
 - **Tech Stack:** Bootstrap for responsiveness, jQuery for dynamic interactions
