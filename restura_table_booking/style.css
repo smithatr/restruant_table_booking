@@ -1,0 +1,124 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, section, footer {
+    padding: 2px;
+    text-align: center;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: #fbd70900;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000000a0;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #49aa04f5;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display:flexbox;
+    }
+  }
+  
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.features {
+    background-color: #e8e8e800;
+}
+
+.feature1 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f6b94f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+.feature2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f6b94f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+.feature3 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f6b94f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+.feature4 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f6b94f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+.image-and-text {
+    display: flex;
+    align-items: center;
+}
+
+.image-and-text img {
+    max-width: 50%; /* Adjust as needed */
+    margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+.text {
+    flex-grow: 1;
+}
+cta {
+    background-color: #f0f0f0;
+    text-decoration-color: #f0f0f0;
+}
+
+button {
+    padding:10px 20px;
+    font-size: 1.5em;
+    border:#ebcd05;
+    background-color: #f6b94f;
+    color: #0b0b0b;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #fde402;
+}
+
+footer {
+    background-color: #33333300;
+    color: #ecf6f5;
+}
